@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to left, black, rgb(36, 35, 35));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1300px;
+    height: 800px;
+    border: red 2px solid;
+}
+
+.content {
+    width: 100px;
+    height: 100px;
+}
+
+.pages img {
+    width: 500px;
+    height: 500px;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-left: 10px;
+}
